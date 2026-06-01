@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "proyeccion3-d-9wjy.vercel.app"
+        }
+      ],
+      "destination": "https://proyeccion3d.com/$1",
+      "permanent": true
+    }
+  ]
+}

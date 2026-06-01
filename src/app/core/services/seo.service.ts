@@ -28,7 +28,7 @@ export class SeoService {
   private readonly siteName = 'Proyección 3D';
   private readonly siteUrl = 'https://proyeccion3d.com';
   private readonly defaultDescription = 'Proyección 3D S.A.S. BIC: soluciones integrales de ingeniería inversa, impresión 3D profesional, diseño mecánico, simulación FEA y fotogrametría por dron en Colombia.';
-  private readonly defaultImage = `${this.siteUrl}/assets/images/projects/HeaderProyeccion.webp`;
+  private readonly defaultImage = `${this.siteUrl}/assets/images/projects/HeaderProyeccion.jpg`;
   private readonly defaultAuthor = 'Proyección 3D S.A.S. BIC';
   private readonly locale = 'es_CO';
 
@@ -82,6 +82,8 @@ export class SeoService {
     this.meta.updateTag({ property: 'og:title', content: pageTitle });
     this.meta.updateTag({ property: 'og:description', content: description });
     this.meta.updateTag({ property: 'og:image', content: image });
+    this.meta.updateTag({ property: 'og:image:width', content: '1200' });
+    this.meta.updateTag({ property: 'og:image:height', content: '630' });
     this.meta.updateTag({ property: 'og:url', content: url });
     this.meta.updateTag({ property: 'og:type', content: type });
     this.meta.updateTag({ property: 'og:site_name', content: this.siteName });
