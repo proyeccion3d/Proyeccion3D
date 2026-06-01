@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://proyeccion3d.com/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://proyeccion3d.com/assets/images/projects/HeaderProyeccion.jpg</image:loc>
+      <image:caption>Proyección 3D</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://proyeccion3d.com/about</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://proyeccion3d.com/assets/images/Nuestra_historia.jpg</image:loc>
+      <image:caption>Sobre Nosotros</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://proyeccion3d.com/service</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://proyeccion3d.com/assets/images/projects/Fotogrametria/Fotogrametria.jpg</image:loc>
+      <image:caption>Fotogrametría</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://proyeccion3d.com/project</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://proyeccion3d.com/assets/images/projects/Diseño_mecanico/diseno-mecanico-8.jpg</image:loc>
+      <image:caption>Portafolio</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://proyeccion3d.com/contact</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

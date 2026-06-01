@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://proyeccion3d.com/sitemap.xml
+Host: https://proyeccion3d.com
