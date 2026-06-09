@@ -55,6 +55,7 @@ export const pagesRoutes: Routes = [
           type: 'website',
         }
       },
+      {
         path: 'contact',
         component: Contact,
         data: {
