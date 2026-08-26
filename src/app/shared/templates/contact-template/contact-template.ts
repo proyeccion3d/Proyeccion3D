@@ -41,7 +41,12 @@ export class ContactTemplate {
         icon: 'pi-phone',
         title: 'Llámanos',
         description: 'Danos una llamada',
-        lines: ['+57 316 5882153', 'Lunes - Viernes, 7am - 6pm COT']
+        lines: [
+          '+57 316 5882153',
+          'Lun - Mié: 8:00 AM - 5:30 PM',
+          'Jue: 8:00 AM - 5:00 PM',
+          'Vie: 8:00 AM - 3:30 PM'
+        ]
       }
     ],
     businessHours: [
