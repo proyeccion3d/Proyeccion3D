@@ -36,7 +36,7 @@ export class HomeTemplate {
 
     Transformamos ideas en ingeniería de precisión mediante tecnología de vanguardia en escaneo láser, impresión 3D, análisis por elementos finitos (FEA) y diseño mecánico.
 
-    Ofrecemos servicios a nivel nacional e internacional.`,
+    Desde Manizales, Caldas, atendemos proyectos a nivel nacional e internacional.`,
     heroVideo:
       'assets/images/projects/HeaderProyeccion.mp4',
     videoAutoplay: true,
@@ -263,4 +263,3 @@ myServicesArray = signal<ServiceItemData[]>([
     ],
   });
 }
-

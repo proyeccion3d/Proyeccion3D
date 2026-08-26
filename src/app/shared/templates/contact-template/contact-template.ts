@@ -14,8 +14,8 @@ import { ContactLocationSection } from "../../organism/contact-location-section/
 export class ContactTemplate {
   // Contact
   contactHeroData = signal({
-    title: 'Ponte en Contacto',
-    description: 'Tienes un proyecto en mente? Nos encantaría saber de ti.',
+    title: 'Cotiza tu Proyecto de Ingeniería',
+    description: 'Cuéntanos qué necesitas y te orientaremos sobre la solución más adecuada para tu proyecto.',
     config: {
       layout: 'simple' as const,
       backgroundColor: '#0f172a',
@@ -29,13 +29,13 @@ export class ContactTemplate {
         icon: 'pi-map-marker',
         title: 'Nuestra Ubicación',
         description: 'Visítanos en nuestra oficina',
-        lines: ['Cl. 3a #4-24', 'Villamaría', 'Caldas, Colombia']
+        lines: ['Cra. 23 #59-70, Local 36', 'Multicentro Estrella, primer piso', 'Frente a la bolera', 'Manizales, Caldas, Colombia']
       },
       {
         icon: 'pi-envelope',
         title: 'Envíanos un Email',
         description: 'Envíanos un correo electrónico',
-        lines: ['productividadydiseno3d@gmail.com', 'proyeccion3d.admi@gmail.com']
+        lines: ['proyeccion3d.admi@gmail.com']
       },
       {
         icon: 'pi-phone',
@@ -45,7 +45,11 @@ export class ContactTemplate {
       }
     ],
     businessHours: [
-      { day: 'Lunes - Viernes', hours: '7:00 AM - 6:00 PM' },
+      { day: 'Lunes', hours: '8:00 AM - 5:30 PM' },
+      { day: 'Martes', hours: '8:00 AM - 5:30 PM' },
+      { day: 'Miércoles', hours: '8:00 AM - 5:30 PM' },
+      { day: 'Jueves', hours: '8:00 AM - 5:00 PM' },
+      { day: 'Viernes', hours: '8:00 AM - 3:30 PM' },
       { day: 'Sábado', hours: 'Cerrado' },
       { day: 'Domingo', hours: 'Cerrado' }
     ],

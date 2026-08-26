@@ -10,12 +10,12 @@ export class FooterContact {
   contactInfo = {
     title: 'Contáctanos',
     address: {
-      street: 'Calle 3 A #4-24',
-      suite: 'Villamaría',
-      city: 'Caldas, Colombia'
+      street: 'Cra. 23 #59-70, Local 36',
+      suite: 'Multicentro Estrella, primer piso',
+      city: 'Manizales, Caldas, Colombia'
     },
     phone: '+57 316 5882153',
     whatsapp: '573165882153',
-    email: 'productividadydiseno3d@gmail.com'
+    email: 'proyeccion3d.admi@gmail.com'
   };
 }

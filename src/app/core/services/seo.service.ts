@@ -28,7 +28,7 @@ export class SeoService {
   private readonly siteName = 'Proyección 3D';
   private readonly siteUrl = 'https://proyeccion3d.com';
   private readonly defaultDescription = 'Proyección 3D S.A.S. BIC: soluciones integrales de ingeniería inversa, impresión 3D profesional, diseño mecánico, simulación FEA y fotogrametría por dron en Colombia.';
-  private readonly defaultImage = `${this.siteUrl}/assets/images/projects/HeaderProyeccion.jpg`;
+  private readonly defaultImage = `${this.siteUrl}/assets/images/projects/HeaderProyeccion.webp`;
   private readonly defaultAuthor = 'Proyección 3D S.A.S. BIC';
   private readonly locale = 'es_CO';
 
@@ -62,7 +62,8 @@ export class SeoService {
       : this.siteName;
     const description = data.description || this.defaultDescription;
     const image = data.image || this.defaultImage;
-    const url = data.url || `${this.siteUrl}${this.router.url}`;
+    const routePath = this.router.url.split(/[?#]/)[0] || '/';
+    const url = data.url || `${this.siteUrl}${routePath}`;
     const type = data.type || 'website';
     const author = data.author || this.defaultAuthor;
     const robots = data.robots || 'index, follow';
@@ -97,9 +98,7 @@ export class SeoService {
 
     // Geo
     this.meta.updateTag({ name: 'geo.region', content: 'CO-CLD' });
-    this.meta.updateTag({ name: 'geo.placename', content: 'Villamaría, Caldas, Colombia' });
-    this.meta.updateTag({ name: 'geo.position', content: '5.0489;-75.5102' });
-    this.meta.updateTag({ name: 'ICBM', content: '5.0489, -75.5102' });
+    this.meta.updateTag({ name: 'geo.placename', content: 'Manizales, Caldas, Colombia' });
 
     // Canonical link
     this.updateCanonicalUrl(url);

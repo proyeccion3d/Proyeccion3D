@@ -4,26 +4,26 @@
   <url>
     <loc>https://proyeccion3d.com/</loc>
     <image:image>
-      <image:loc>https://proyeccion3d.com/assets/images/projects/HeaderProyeccion.jpg</image:loc>
+      <image:loc>https://proyeccion3d.com/assets/images/projects/HeaderProyeccion.webp</image:loc>
       <image:caption>Proyección 3D</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://proyeccion3d.com/about</loc>
     <image:image>
-      <image:loc>https://proyeccion3d.com/assets/images/Nuestra_historia.jpg</image:loc>
+      <image:loc>https://proyeccion3d.com/assets/images/Nuestra_historia.webp</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://proyeccion3d.com/service</loc>
     <image:image>
-      <image:loc>https://proyeccion3d.com/assets/images/projects/Fotogrametria/Fotogrametria.jpg</image:loc>
+      <image:loc>https://proyeccion3d.com/assets/images/projects/Fotogrametria/Fotogrametria.webp</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://proyeccion3d.com/project</loc>
     <image:image>
-      <image:loc>https://proyeccion3d.com/assets/images/projects/Diseño_mecanico/diseno-mecanico-8.jpg</image:loc>
+      <image:loc>https://proyeccion3d.com/assets/images/projects/Diseño_mecanico/diseno-mecanico-8.webp</image:loc>
     </image:image>
   </url>
 </urlset>

@@ -1,0 +1,25 @@
+ACTUALIZACIÓN PUNTUAL — PROYECCIÓN 3D
+
+Uso:
+1. Haz una copia de seguridad del proyecto actual.
+2. Copia el contenido de esta carpeta sobre la raíz de Proyeccion3D-main.
+3. Conserva exactamente la estructura de carpetas incluida.
+4. Ejecuta la compilación y publica el resultado como de costumbre.
+
+Cambios incluidos:
+- Dirección: Cra. 23 #59-70, Local 36, Multicentro Estrella, primer piso,
+  frente a la bolera, Manizales, Caldas.
+- Correo principal: proyeccion3d.admi@gmail.com.
+- Horario actualizado: lunes a miércoles de 8:00 a. m. a 5:30 p. m.;
+  jueves de 8:00 a. m. a 5:00 p. m.; viernes de 8:00 a. m. a 3:30 p. m.;
+  sábado y domingo cerrado.
+- Mapa de contacto actualizado mediante búsqueda directa de la nueva dirección.
+- Títulos y descripciones SEO ajustados de forma moderada para Manizales,
+  servicios de ingeniería 3D y solicitudes de cotización.
+- Datos estructurados locales con dirección, teléfono, correo y horario.
+- Imágenes rotas de Open Graph y sitemaps corregidas de .jpg a .webp.
+- Canonical limpio, sin fragmentos ni parámetros.
+- Texto provisional de la sección de servicios reemplazado.
+- Ajustes leves de conversión en Inicio, Contacto y footer.
+
+No se modificaron estilos, diseño, rutas, servicios ni funcionamiento del formulario.
